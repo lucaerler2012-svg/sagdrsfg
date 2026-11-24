@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "obsicrystal2",
+  "version": "${version}",
+  "name": "Obsidian Auto Crystal",
+  "description": "Setzt du Obsidian und hast einen End-Kristall in der Hotbar, wechselt die Mod auf den Kristall und setzt ihn automatisch auf das Obsidian.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.obsicrystal2.ObsiCrystal2Client"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
